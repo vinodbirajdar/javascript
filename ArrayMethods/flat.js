@@ -10,3 +10,10 @@ console.log(flattenArray);
 // flat() to Remove Holes in Array
 let flatarr = [,,,,4,5,6,,,,,"array"];
 console.log(flatarr.flat());
+
+
+//FlatMap
+
+let flatMappedNumbers = [10,13,23,,,,];
+let flattenedNumbers = flatMappedNumbers.flatMap((x) => [x ** 2]);
+console.log("flattenedNumbers",flattenedNumbers);
